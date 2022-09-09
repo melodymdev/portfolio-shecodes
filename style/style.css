@@ -1,0 +1,9 @@
+:root {
+    --primary-font: 'Varela Round', sans-serif;
+    --secondary-font: 'Shrikhand', sans-serif;
+}
+
+body {
+    font-family: var(--primary-font);
+    text-align: center;
+}
