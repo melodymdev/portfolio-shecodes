@@ -76,9 +76,57 @@ a:hover {
     border: 5px solid aliceblue
 }
 
-@media (max-width: 700px) {
-    .mobile {
+.mobile-subtitle {
+    display: none;
+}
+
+.mobile-link {
+    display: none;
+}
+
+@media (max-width: 900px) {
+
+    .title {
+        font-size: 60px;
+    }
+
+    .name {
+        line-height: 60px;
+        font-size: 70px;
+        margin-bottom: 30px;
+    }
+
+    .mobile-subtitle {
         display: flex;
         flex-direction: column;
+        align-self: center;
+        text-align: center;
+        color: #5F48AD;
+        font-family: var(--secondary-font);
+        font-size: 26px;
+
+    }
+
+    .mobile-link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button-link {
+        padding: 10px 20px;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .subtitle {
+        display: none;
+    }
+        
+    .link-container {
+        display: none;
+    }
+
+    .selfie {
+        display: none;
     }
 }
