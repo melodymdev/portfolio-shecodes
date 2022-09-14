@@ -129,9 +129,10 @@ a:hover {
 }
 
 .work-title {
-    color: #5F48AD;
+    font-size: 60px;
+    color: #6F83FF;
     -webkit-text-stroke: 1px #3A51DF;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.241)
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.405);
 }
 
 .weather-app-img {
