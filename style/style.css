@@ -14,7 +14,35 @@ body {
     background-position: center;
 }
 
+.navbar-brand {
+    font-family: var(--secondary-font);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.567);
+    color: #f8e0eb;
+    font-size: 30px;
+}
+
+.navbar-brand:hover {
+    color: #f8e0eb;
+    cursor: default;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+
+.nav-link:hover {
+    background-color: #EFCBDC;
+    border-radius: 10px;
+}
+
+.bg-color {
+    background-color: #6F83FF;
+}
+
 .content-container {
+    margin-top: 200px;
     padding: 80px 64px;
     background-color: #EFCBDC;
     border: 10px solid #5575c8;
@@ -28,6 +56,7 @@ body {
     font-size: 96px;
     color: #5F48AD;
     -webkit-text-stroke: 2px #3A51DF;
+    line-height: 70px;
 }
 
 .name {
@@ -84,7 +113,27 @@ a:hover {
     display: none;
 }
 
+.about-me {
+    font-size: 60px;
+    color: #6F83FF;
+    -webkit-text-stroke: 1px #3A51DF;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.405);
+    margin-bottom: 40px;
+}
+
+.content-container-about {
+    margin-top: 100px;
+    padding: 80px 64px;
+    background-color: #EFCBDC;
+    border: 10px solid #5575c8;
+}
+
+
 @media (max-width: 900px) {
+
+    .content-container {
+        margin-top: 16px
+    }
 
     .title {
         font-size: 60px;
@@ -128,5 +177,10 @@ a:hover {
 
     .selfie {
         display: none;
+    }
+
+    iframe {
+        width: 460px;
+        height: 260px;
     }
 }
