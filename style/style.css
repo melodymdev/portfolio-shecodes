@@ -75,6 +75,16 @@ body {
     align-self: center;
 }
 
+.open-source {
+    font-size: 18px;
+    margin-top: 64px;
+    align-self: center;
+}
+
+.open-source-mobile {
+    display: none;
+}
+
 .button-link {
     padding: 20px 40px;
     font-size: 32px;
@@ -149,6 +159,7 @@ a:hover {
     border-radius: 10px;
 }
 
+
 @media (max-width: 900px) {
 
     #mobile-content-container {
@@ -203,6 +214,15 @@ a:hover {
     }
 
     .selfie {
+        display: none;
+    }
+
+    .open-source-mobile {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .open-source {
         display: none;
     }
 
