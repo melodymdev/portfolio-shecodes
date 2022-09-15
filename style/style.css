@@ -44,7 +44,7 @@ body {
 .content-container {
     margin-top: 100px;
     padding: 80px 64px;
-    background-color: #EFCBDC;
+    background-color: #efcbdcd0;
     border: 10px solid #5575c8;
 }
 
@@ -75,16 +75,6 @@ body {
     align-self: center;
 }
 
-.open-source {
-    font-size: 18px;
-    margin-top: 64px;
-    align-self: center;
-}
-
-.open-source-mobile {
-    display: none;
-}
-
 .button-link {
     padding: 20px 40px;
     font-size: 32px;
@@ -112,7 +102,7 @@ a:hover {
 }
 
 .selfie {
-    border: 5px solid aliceblue
+    border: 5px solid #f0f8ff
 }
 
 .mobile-subtitle {
@@ -131,11 +121,28 @@ a:hover {
     margin-bottom: 40px;
 }
 
+p {
+    max-width: 860px;
+    color: #5F48AD;
+    font-weight: bold;
+}
+
+.about-hey {
+    font-size: 30px;
+    color: #3A51DF;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.129);
+}
+
+.about-p-top {
+    margin-top: 30px;
+}
+
 .content-container-about {
-    margin-top: 100px;
+    margin-top: 40px;
     padding: 80px 64px;
-    background-color: #EFCBDC;
+    background-color: #efcbdcd0;
     border: 10px solid #5575c8;
+    margin-bottom: 30px;
 }
 
 .work-title {
@@ -160,7 +167,7 @@ a:hover {
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 912px) {
 
     #mobile-content-container {
         margin-top: 16px;
@@ -214,15 +221,6 @@ a:hover {
     }
 
     .selfie {
-        display: none;
-    }
-
-    .open-source-mobile {
-        margin-top: 20px;
-        text-align: center;
-    }
-
-    .open-source {
         display: none;
     }
 
